@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vattanak Premier Academy | Leading High School in Cambodia</title>
+    <meta name="description"
+        content="Vattanak Premier Academy in Phnom Penh provides excellence in MOEYS and International Curriculums for Grades 10-12.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Khmer Fonts would typically be linked here -->
+    <link rel="stylesheet" href="vpa.css">
+</head>
+
+<body>
+    <div id="scroll-progress"></div>
+
+    <!-- Header / Navbar -->
+    <nav id="navbar">
+        <div class="logo-container">
+            <img src="images/beltel-logo.png" alt="BELTEI Logo" class="logo-img">
+            <div class="logo-text">
+                <h1>BELTEI International</h1>
+                <p>School • សាលា ប៊ែលធី អន្តរជាតិ</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active" data-key="nav-home">Home</a></li>
+            <li><a href="about.html" data-key="nav-about">About</a></li>
+            <li><a href="academics.html" data-key="nav-academics">Academics</a></li>
+            <li><a href="campus.html" data-key="nav-campus">Campus</a></li>
+            <li><a href="admissions.html" data-key="nav-admissions">Admissions</a></li>
+            <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+            <!-- <li><a href="#" class="portal-btn" data-key="nav-portal">Student Portal</a></li> -->
+        </ul>
+        <div class="lang-switch">
+            <span class="lang-btn active">EN</span>
+            <span class="lang-btn">KH</span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-home"
+        style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/library.png') center/cover; height: 100vh; display: flex; align-items: center; color: white;">
+        <div class="hero-content" style="max-width: 800px; padding-left: 8%;">
+            <span
+                style="background: var(--accent); color: var(--secondary); padding: 5px 15px; border-radius: 20px; font-weight: 700; font-size: 0.9rem;">ENROLLING
+                NOW • 2026-2027</span>
+            <h1 style="font-size: 4.5rem; color: white; margin-top: 20px;" data-key="hero-title">Excellence in
+                Education, Rooted in Tradition</h1>
+            <p style="font-size: 1.3rem; margin-bottom: 40px; opacity: 0.9;" data-key="hero-subtitle">Fostering the next
+                generation of Cambodian leaders through world-class academic programs and Khmer values.</p>
+            <div class="hero-actions" style="display: flex; gap: 20px;">
+                <a href="admissions.html" class="portal-btn" style="padding: 15px 40px; font-size: 1.1rem;"
+                    data-key="btn-apply">Apply Now</a>
+                <a href="academics.html"
+                    style="border: 2px solid white; color: white; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: 600;"
+                    data-key="btn-explore">Explore Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Overview -->
+    <section class="programs">
+        <div class="section-title" style="text-align: center; margin-bottom: 60px;">
+            <p style="color: var(--primary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
+                data-key="section-why-title">Why VPA?</p>
+            <h2 data-key="path-success">Choose Your Path to Success</h2>
+        </div>
+        <div class="programs-grid"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+            <div class="card">
+                <div class="icon" style="font-size: 3rem; margin-bottom: 20px;">🇰🇭</div>
+                <h3>National Curriculum (MoEYS)</h3>
+                <p>Full implementation of the Khmer National Diploma (Grade 10-12) with a focus on STEM innovation and
+                    Khmer literature.</p>
+                <a href="academics.html"
+                    style="color: var(--primary); font-weight: 700; text-decoration: none; display: block; margin-top: 20px;">Learn
+                    More →</a>
+            </div>
+            <div class="card">
+                <div class="icon" style="font-size: 3rem; margin-bottom: 20px;">🌍</div>
+                <h3>IGCSE & International Stream</h3>
+                <p>Cambridge international programs alongside national standards, preparing students for world-class
+                    universities.</p>
+                <a href="academics.html"
+                    style="color: var(--primary); font-weight: 700; text-decoration: none; display: block; margin-top: 20px;">Learn
+                    More →</a>
+            </div>
+            <div class="card">
+                <div class="icon" style="font-size: 3rem; margin-bottom: 20px;">🚀</div>
+                <h3>Advanced STEM & Robotics</h3>
+                <p>Exclusive technology laboratory and robotics program developed for future tech leaders of Cambodia.
+                </p>
+                <a href="academics.html"
+                    style="color: var(--primary); font-weight: 700; text-decoration: none; display: block; margin-top: 20px;">Learn
+                    More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Highlights -->
+    <section class="highlights" style="background: #f0f4f8; overflow: hidden; position: relative;">
+        <div style="display: flex; align-items: center; gap: 60px;">
+            <div class="image-stack" style="flex: 1; position: relative; height: 500px;">
+                <img src="images/lab.png"
+                    style="width: 80%; height: 350px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow); position: absolute; top: 0; left: 0; z-index: 1;">
+                <img src="images/sports.png"
+                    style="width: 80%; height: 350px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow); position: absolute; bottom: 0; right: 0; z-index: 2; border: 5px solid white;">
+            </div>
+            <div class="text-content" style="flex: 1;">
+                <h2>World-Class Campus <br>Modern Facilities</h2>
+                <p>Our campus in Phnom Penh is designed to inspire. From high-tech laboratories to professional sports
+                    fields, we provide an environment where students can thrive in every dimension.</p>
+                <ul style="list-style: none; margin-top: 30px;">
+                    <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: var(--accent);">✓</span> Interactive Digital Classrooms
+                    </li>
+                    <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: var(--accent);">✓</span> Olympic-standard Swimming Pool
+                    </li>
+                    <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: var(--accent);">✓</span> Center for Performing Arts
+                    </li>
+                </ul>
+                <a href="campus.html" class="portal-btn" style="margin-top: 40px; display: inline-block;">Take a Virtual
+                    Tour</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events -->
+    <section class="news">
+        <div class="section-title">
+            <h2>School News & Announcements</h2>
+        </div>
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
+            <div class="news-item" style="border-bottom: 1px solid #eee; padding-bottom: 20px;">
+                <p style="color: var(--primary); font-weight: 700; font-size: 0.8rem;">FEB 05, 2026</p>
+                <h4 style="margin-bottom: 10px;">Vattanak Wins National Debate Championship</h4>
+                <p>Our Grade 12 team secured the first place in the 2026 Phnom Penh Inter-School Debate Series.</p>
+            </div>
+            <div class="news-item" style="border-bottom: 1px solid #eee; padding-bottom: 20px;">
+                <p style="color: var(--primary); font-weight: 700; font-size: 0.8rem;">JAN 28, 2026</p>
+                <h4 style="margin-bottom: 10px;">Spring Scholarship Applications Open</h4>
+                <p>Scholarships for high-performing students entering Grade 10 are now available for application.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h2 data-key="footer-about-title" style="color: var(--accent); margin-bottom: 20px;">BELTEI
+                    International School</h2>
+                <p data-key="footer-about-desc">The best quality of education for your children's future.</p>
+                <div style="margin-top: 20px;">
+                    <p>📍 No. 45, Norodom Blvd, Phnom Penh</p>
+                    <p>📞 +855 23 999 888</p>
+                    <p>✉️ info@vattanakpremier.edu.kh</p>
+                </div>
+            </div>
+            <div class="footer-col" data-key="footer-links-title">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">Our History</a></li>
+                    <li><a href="academics.html">Curriculum</a></li>
+                    <li><a href="campus.html">Campus Tour</a></li>
+                    <li><a href="admissions.html">How to Apply</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Academics</h3>
+                <ul>
+                    <li><a href="#">Khmer National Program</a></li>
+                    <li><a href="#">International Stream</a></li>
+                    <li><a href="#">STEM & Innovation</a></li>
+                    <li><a href="#">Arts & Culture</a></li>
+                </ul>
+            </div>
+            <div class="footer-col" data-key="footer-contact-title">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Telegram Channel</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-key="copyright">© 2026 BELTEI International School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

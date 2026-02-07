@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Facilities | Vattanak Premier Academy</title>
+    <link rel="stylesheet" href="vpa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <nav id="navbar">
+        <div class="logo-container">
+            <img src="images/beltel-logo.png" alt="BELTEI Logo" class="logo-img">
+            <div class="logo-text">
+                <h1>BELTEI International</h1>
+                <p>School • សាលា ប៊ែលធី អន្តរជាតិ</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="campus.html" class="active">Campus</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="lang-switch">
+            <span class="lang-btn active">EN</span>
+            <span class="lang-btn">KH</span>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1 data-key="campus-title">Our Campus</h1>
+        <p data-key="campus-subtitle">A modern environment designed to foster creativity, health, and learning.</p>
+    </header>
+
+    <section class="facility-grid">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&q=80&w=800"
+                    style="width: 100%; height: 250px; object-fit: cover;">
+                <div style="padding: 30px;">
+                    <h3 data-key="fac-library-title">Innovation Library</h3>
+                    <p data-key="fac-library-desc">Over 20,000 physical volumes and digital access to international
+                        research journals.</p>
+                </div>
+            </div>
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800"
+                    style="width: 100%; height: 250px; object-fit: cover;">
+                <div style="padding: 30px;">
+                    <h2 data-key="fac-sports-title"
+                        style="font-size: 1.5rem; margin-bottom: 10px; color: var(--secondary);">Athletic Center</h2>
+                    <p data-key="fac-sports-desc">Multipurpose indoor courts, football pitch, and a semi-olympic
+                        swimming pool.</p>
+                </div>
+            </div>
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&q=80&w=800"
+                    style="width: 100%; height: 250px; object-fit: cover;">
+                <div style="padding: 30px;">
+                    <h3 data-key="fac-lab-title">Science & Tech Wing</h3>
+                    <p data-key="fac-lab-desc">Physics, Chemistry, and Biology labs equipped with the latest vernier
+                        sensory equipment.</p>
+                </div>
+            </div>
+            <div class="card" style="padding: 0; overflow: hidden;">
+                <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=800"
+                    style="width: 100%; height: 250px; object-fit: cover;">
+                <div style="padding: 30px;">
+                    <h3 data-key="fac-art-title">Creative Arts Studio</h3>
+                    <p data-key="fac-art-desc">Space for traditional Khmer dance, contemporary music, and visual arts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="virtual-tour"
+        style="background: #000; color: white; text-align: center; padding: 120px 8%; position: relative; overflow: hidden;">
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at center, rgba(139,0,0,0.15) 0%, transparent 70%); z-index: 0;">
+        </div>
+
+        <div style="position: relative; z-index: 1;">
+            <h2 data-key="tour-title" style="color: var(--accent); margin-bottom: 20px; font-size: 3rem;">Video
+                Information: BELTEI High School</h2>
+            <p data-key="tour-subtitle"
+                style="margin-bottom: 60px; opacity: 0.8; font-size: 1.2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Experience our campus from anywhere in the world.</p>
+
+            <div class="video-container"
+                style="width: 100%; max-width: 1000px; margin: 0 auto; border-radius: 30px; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.5); border: 2px solid rgba(255,215,0,0.2);">
+                <div style="padding-top: 56.25%; position: relative;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                        src="https://www.youtube.com/embed/wHVW5OOUYrQ?si=GhUAJQm9n7HceSj4&autoplay=0&mute=1&loop=1&playlist=wHVW5OOUYrQ"
+                        title="VPA Campus Tour" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h2 data-key="footer-about-title" style="color: var(--accent); margin-bottom: 20px;">BELTEI
+                    International School</h2>
+                <p data-key="footer-about-desc">The best quality of education for your children's future.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col" style="grid-column: span 2;">
+                <h3>Campus Location</h3>
+                <p>📍 No. 45, Norodom Blvd, Phnom Penh</p>
+                <p>Security Check Required at Entrance</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-key="copyright">© 2026 BELTEI International School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
